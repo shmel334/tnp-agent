@@ -1,0 +1,12 @@
+{
+  "name": "tnp",
+  "owner": { "name": "TnP", "url": "https://tnp24.com" },
+  "metadata": { "description": "TnP (tnp24.com) plugins for AI agents" },
+  "plugins": [
+    {
+      "name": "tnp",
+      "source": "./",
+      "description": "Find, watch and tune recommendations on TnP (tnp24.com) from your AI agent."
+    }
+  ]
+}

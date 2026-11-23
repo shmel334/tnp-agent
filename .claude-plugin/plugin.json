@@ -1,0 +1,23 @@
+{
+  "name": "tnp",
+  "version": "0.1.0",
+  "description": "TnP (tnp24.com) for your AI agent: find films and series, open them in the TnP player, build themed lists and tune your «Для вас» recommendations.",
+  "author": { "name": "TnP", "url": "https://tnp24.com" },
+  "homepage": "https://tnp24.com",
+  "userConfig": {
+    "tnp_token": {
+      "type": "string",
+      "title": "TnP token",
+      "description": "Your personal token: tnp24.com → «АІ» → «API-ключ або свій сервер». Starts with tnph_.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "tnp": {
+      "type": "http",
+      "url": "https://mcp.tnp24.com/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.tnp_token}" }
+    }
+  }
+}
