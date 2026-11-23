@@ -15,3 +15,6 @@ Tools come from the `tnp` MCP server. They change the inputs of TnP's own recomm
 4. Confirm before writing (rate_titles, taste_update). Then `my_recommendations` again so the user sees the effect.
 
 Answer in the user's language.
+
+When the user reacts to results (fits / not that / missing title), call `report_feedback` with `about_ids`, the `query`,
+your model name in `agent_model` and your `confidence` — TnP learns from these nuances.

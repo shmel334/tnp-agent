@@ -29,3 +29,5 @@ codex mcp add tnp --url <your personal address from tnp24.com → «АІ» → �
 | `my_recommendations` | your personal «Для вас» row |
 | `rate_titles`, `preview_recommendations` | likes / dislikes that steer recommendations, with a preview |
 | `taste_profile`, `taste_update`, `taste_undo` | favourite genres, moods, eras — with undo |
+| `device_guide` | how to watch on a TV, phone, computer, set-top box or VR |
+| `report_feedback` | tell TnP what fit or did not — it learns from it |

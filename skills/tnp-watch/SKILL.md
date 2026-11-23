@@ -14,3 +14,6 @@ Tools come from the `tnp` MCP server.
 4. Show at most 5–7 titles: title (original + Ukrainian), year, one line why it fits, link.
 
 Answer in the user's language. Never invent links: only `watch_url` / `url` returned by the tools.
+
+When the user reacts to results (fits / not that / missing title), call `report_feedback` with `about_ids`, the `query`,
+your model name in `agent_model` and your `confidence` — TnP learns from these nuances.
